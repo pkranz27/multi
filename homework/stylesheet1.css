@@ -1,0 +1,195 @@
+
+/* Add a background color to the top nav bar */
+.topnav{
+ overflow:hidden;
+ background-color: #e9e9e9;
+ width: auto;
+ height:auto;
+ border-style: ridge;
+ border-color: grey;
+ padding: 10px 10px 10px 10px;
+ z-index: 4;
+
+  
+}
+ 
+/* Style the links inside the navigaton bar */
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: black;
+   justify-content: center;
+    padding: 0px;
+    text-shadow: 2px 2px 2px rgb(5, 5, 22);
+    border-style: outset;
+    border-radius: 6px 6px 6px 6px;
+
+    
+}
+/* change the link color on hover */
+.topnav a:hover{
+    background-color: red;
+    color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+ #active a:hover {
+    background-color: #2196F3;
+    color: white;
+    padding-right: auto; 
+    background-color: crimson;
+  }
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+ #a,#b,#c{
+     display: flex;
+     box-shadow: 2px 2px 2px 2px grey;
+     border:20px;
+     padding: 16px;
+     padding-left: 20px;
+     margin-left: 80px;
+     padding-right: 20px;
+     justify-content: space-evenly;
+    font-size: 30px;
+    font-weight:lighter;
+    font-family: 'Estonia', cursive;
+     
+     
+  }
+.search{
+      box-shadow: inherit;
+      
+      box-sizing: border-box;
+      margin-left: 600px;
+      margin-top: -60px;
+   
+      padding-left: 15px;
+     border-bottom: turquoise 1px;
+      
+      z-index: -2;
+      
+  }
+  .content h1{
+  margin: 40px 40px;
+     
+
+  }
+  h1{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      color:crimson;
+     background-color: rgb(17, 61, 180);
+     border-style:inset;
+     border-color: rgb(50, 70, 24);
+     border-radius: 10px 10px 10px 10px;
+    letter-spacing: 10px;
+    font-family: 'Estonia', cursive;
+    font-size: 55px;
+    text-shadow: 2px 2px  rgb(2, 2, 2);}
+    
+  
+ 
+  
+     
+      
+  
+  .flex-container{
+      display: flex;
+    float: right;
+      flex-direction: row;
+     
+      
+      width: 10%;
+      height: auto;
+      font-size: 17px;
+  }
+
+    #one {
+        margin-left: -250px;
+        margin-top: -12px;
+                
+        
+
+    }
+      #two{
+          margin-top: -32px;
+          margin-left: -59px;
+          ;
+      }
+      
+      #three{
+         margin-top: -32px;
+         padding-left: 8px;
+          
+      }
+
+    
+      
+      
+ 
+
+
+    
+  h2{
+    font-family: 'Estonia', cursive;
+    text-decoration-line: underline;
+    color:rgb(75, 70, 70);
+    font-size: 55px;
+    margin-left: 5px;
+  }
+  .content p{
+      margin-top: -40px;
+      text-align:unset;
+      font-family: 'Bebas Neue', cursive;
+      margin-left: 60px;
+      font-size: 19px;
+  }
+.footer{
+  display: inline-flex;
+  width: 99%;
+  height: 100%;
+  float: inline-start;
+  background-color: cornsilk;
+  align-items: center;
+  border: darkkhaki 10px;
+  border-style: double;
+  margin: initial;
+ 
+}
+.pie{
+  box-sizing: border-box 3px;
+ text-align: center;
+ display: inline-flex;
+font-size: larger;
+font-weight: bolder;
+display: block;
+height: 20px;
+padding-left: 200px;
+text-transform: uppercase;
+}
+
+
+
+#live{
+padding-right: 100px;
+
+
+}
+
+
+#laugh{
+padding-right: 100px;
+}
+
+#lie{
+padding-right: 100px;
+}
